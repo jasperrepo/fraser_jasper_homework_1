@@ -5,6 +5,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-style:normal;
 	font-weight:normal;
+    color: rgb(34, 29, 29);
+    background-color: #d4b9b9;
+    background-image: url('../images/viktor-bystrov-mn7eTQFHNHc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 h1 {
@@ -21,6 +27,13 @@ h1 {
     border: solid 1px #333;
     background: #efefef;
     border-radius: 10px;
+}
+
+#intro {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+	font-style:normal;
+	font-weight:normal;
 }
 
 #mainContent {
