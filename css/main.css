@@ -7,9 +7,9 @@ body {
 	font-weight:normal;
     color: rgb(34, 29, 29);
     background-color: #d4b9b9;
-    background-image: url('../images/viktor-bystrov-mn7eTQFHNHc-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../images/letters.jpg');
+    background-repeat: repeat;
+    background-size: contain;
     background-blend-mode: overlay;
 }
 
@@ -24,7 +24,55 @@ h1 {
 
 #container {
     margin: 20px auto;
-    width: 428px;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-fabricio-trujillo-54567.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+
+#container2 {
+    margin: 20px auto;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-gonzalo-acun╠âa-10923070.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+
+#container3 {
+    margin: 20px auto;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-juan-salamanca-61135.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+
+#container4 {
+    margin: 20px auto;
+    width: 500px;
     border: solid 1px #333;
     background: #efefef;
     background-image: url('../images/martin-sanchez-igSCxtyORzY-unsplash.jpg');
@@ -38,13 +86,63 @@ h1 {
     
 }
 
-#container2 {
+#container5 {
     margin: 20px auto;
-    width: 428px;
+    width: 500px;
     border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-timur-weber-8679349.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
     border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-style: 30px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+#container6 {
+    margin: 20px auto;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-anna-shvets-5069203.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+
+#container7 {
+    margin: 20px auto;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/pexels-juan-salamanca-61135.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
+	font-style:normal;
+	font-weight:normal;
+    
+}
+#container8 {
+    margin: 20px auto;
+    width: 500px;
+    border: solid 1px #333;
+    background: #efefef;
+    background-image: url('../images/martin-sanchez-igSCxtyORzY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: 'Tangerine', sans-serif;
 	font-style:normal;
 	font-weight:normal;
     
@@ -66,31 +164,9 @@ h1 {
         padding-right: 20px;
 }
 
-#hero {
-    grid-column: 1/-1;
-    grid-row: 1/1;
-    background: url(../images/pexels-pixabay-255483.jpg) no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: overlay;
-    height: 306px;
-    width: 412px;
-    
- }
+
  
- #hero-main {
-    height: 220px;
-    object-fit: cover;
- }
- 
- #hero .grid-con {
-   
-    grid-column: 2/3;
-  
-    grid-row:1/1;
- 
-    margin: 0;
- }
+
  
 
 article {
@@ -99,6 +175,12 @@ article {
     font-style: 30px;
 	font-style:normal;
 	font-weight:normal;
+    font-size: medium;
+    border: solid 1px #333;
+    border-radius: 10px;
+    border-width: auto;
+    margin: 20px auto;
+    width: 428px;
 }
 
 img {
