@@ -42,11 +42,6 @@ h1 {
     margin: 20px auto;
     width: 428px;
     border: solid 1px #333;
-    background: #efefef;
-    background-image: url('../images/pexels-anna-shvets-5069203.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: overlay;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-style: 30px;
@@ -71,10 +66,16 @@ h1 {
         padding-right: 20px;
 }
 
-#hero img {
+#hero {
     grid-column: 1/-1;
     grid-row: 1/1;
-    justify-self: center;
+    background: url(../images/pexels-pixabay-255483.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 306px;
+    width: 412px;
+    
  }
  
  #hero-main {
@@ -94,6 +95,10 @@ h1 {
 
 article {
     grid-column: 1/-1;
+    font-family: 'Roboto', sans-serif;
+    font-style: 30px;
+	font-style:normal;
+	font-weight:normal;
 }
 
 img {
